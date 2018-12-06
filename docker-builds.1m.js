@@ -4,18 +4,7 @@
  *
  * @type {*[{func: functionToProcessResponse, url: the url of the build, web: the live url to view}]}
  */
-const monitorUrls = [
-	{
-		func: parseQuay,
-		url: "https://quay.io/api/v1/repository/tarilabs/bn-api/build/",
-		web: "https://quay.io/repository/tarilabs/bn-api",
-	},
-	{
-		func: parseDockerHub,
-		url: "https://hub.docker.com/v2/repositories/taridocker/bn-web/buildhistory/?page_size=1",
-		web: "https://hub.docker.com/r/taridocker/bn-web/builds/"
-	}
-];
+const monitorUrls = [];
 
 const STATUS_COMPLETE = "complete";
 const STATUS_ERROR = "error";
