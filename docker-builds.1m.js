@@ -9,6 +9,7 @@ const monitorUrls = [];
 const STATUS_COMPLETE = "complete";
 const STATUS_ERROR = "error";
 const STATUS_WAITING = "waiting";
+const STATUS_BUILD_SCHEDULED = "build-scheduled";
 const STATUS_BUILDING = "building";
 const STATUS_UNKNOWN = "unknown";
 
@@ -16,6 +17,7 @@ const icons = {
 	[STATUS_COMPLETE]: "✅",
 	[STATUS_ERROR]: "⚠️",
 	[STATUS_WAITING]:  "⏸️",
+	[STATUS_BUILD_SCHEDULED]:  "⏸️",
 	[STATUS_BUILDING]: "👷",
 	[STATUS_UNKNOWN]: "❓",
 };
