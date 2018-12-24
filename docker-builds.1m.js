@@ -14,12 +14,12 @@ const STATUS_BUILDING = "building";
 const STATUS_UNKNOWN = "unknown";
 
 const icons = {
-	[STATUS_COMPLETE]: ":white_check_mark:",
-	[STATUS_ERROR]: ":warning:️",
-	[STATUS_WAITING]:  ":hand:️",
-	[STATUS_BUILD_SCHEDULED]:  ":hourglass_flowing_sand:️",
-	[STATUS_BUILDING]: ":construction_worker:",
-	[STATUS_UNKNOWN]: ":trollface:",
+	[STATUS_COMPLETE]: "✅",
+	[STATUS_ERROR]: "⚠️",
+	[STATUS_WAITING]:  "⏸️",
+	[STATUS_BUILD_SCHEDULED]:  "⏸️",
+	[STATUS_BUILDING]: "👷",
+	[STATUS_UNKNOWN]: "❓",
 };
 
 let promises = [];
